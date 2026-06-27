@@ -1,39 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      html,
-      body{
-        height: 100%;
-        width: 100%;
-      }
-      .container {
-        height: 100%;
-        width: 85%;
-      }
-      .link {
-        width: 150px;
-        height: 150px;
-        background-color: brown;
-        position: absolute;
-        right: 0;
-        top: 0;
-      }
-    </style>
-    <title>MazeGenerator</title>
+    <title>Maze Generator</title>
   </head>
   <body>
-    <div id="content">
-      <canvas id="canvas"></canvas>
-    </div>
-    <!-- <div id="link"></div> -->
-
-    <script src="index.js"></script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
